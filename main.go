@@ -15,6 +15,7 @@ func healthcheck(c *gin.Context) {
 	})
 }
 func main() {
+	// fancy.Hello()
 	router := gin.Default()
 	router.GET("/healthcheck", healthcheck)
 	router.Run(":3000")
