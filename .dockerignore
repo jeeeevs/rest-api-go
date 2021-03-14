@@ -1,4 +1,3 @@
 vendor
 .dockerignore
-.dockerignore
 Dockerfile
